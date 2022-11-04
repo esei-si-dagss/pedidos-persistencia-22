@@ -180,13 +180,9 @@ Contenido a incluir
 ```sh
 cd src/main/java/es/uvigo/mei/pedidos/
 
-rm App.java
-
-wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-2/main/src/main/java/es/uvigo/mei/pedidos/Main.java
+wget https://raw.githubusercontent.com/esei-si-dagss/pedidos-persistencia-22/main/src/main/java/es/uvigo/mei/pedidos/Main.java
 
 pushd
-
-rm src/test/java/es/uvigo/mei/pedidos/AppTest.java 
 ```
 
 #### Aspectos a revisar
