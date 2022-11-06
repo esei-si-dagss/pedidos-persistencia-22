@@ -157,11 +157,11 @@ Contenido a incluir
     <class>es.uvigo.mei.pedidos.entidades.Pedido</class>
     
     <properties>
-      <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/pruebas_si?serverTimezone=UTC"/>
-      <property name="jakarta.persistence.jdbc.user" value="si"/>
-      <property name="jakarta.persistence.jdbc.password" value="si"/>
-      <property name="jakarta.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-      <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/pruebas_si?serverTimezone=UTC"/>
+      <property name="javax.persistence.jdbc.user" value="si"/>
+      <property name="javax.persistence.jdbc.password" value="si"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
       
       <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
       <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
@@ -225,4 +225,4 @@ Disponible en Github: [https://github.com/esei-si-dagss/pedidos-persistencia-22]
 
 * Para usar la misma versión de Hibernate que usa la versión 2.7.5 de Spring Boot (última versión estable) se ha hecho un _downgrade_ de la versión de Hibernate a la 5.6.14.Final.
 
-* Esa versión implementa la especificación JPA 2.2 y aún emplea el espacio de nombres `javax.persiscente.*` en lugar de `jakarta.persiscente.*` en uso desde JPA 3.0. Por ello se han ajustado los `import` en el código fuente de las clases con las `@Entity` de ejemplo y en la clase con la función `main()`. También se ha realizado el mismo cambio en el fichero `persistence.xml`. 
+* Esa versión implementa la especificación JPA 2.2 y aún emplea el espacio de nombres `javax.persiscente.*` en lugar de `javax.persiscente.*` en uso desde JPA 3.0. Por ello se han ajustado los `import` en el código fuente de las clases con las `@Entity` de ejemplo y en la clase con la función `main()`. También se ha realizado el mismo cambio en el fichero `persistence.xml`. 
