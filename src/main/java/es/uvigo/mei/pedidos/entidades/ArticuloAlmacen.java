@@ -2,10 +2,10 @@ package es.uvigo.mei.pedidos.entidades;
 
 import java.io.Serializable;
 import java.util.Objects;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.IdClass;
-import jakarta.persistence.ManyToOne;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.IdClass;
+import javax.persistence.ManyToOne;
 
 @Entity
 @IdClass(ArticuloAlmacenId.class)

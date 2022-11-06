@@ -10,11 +10,11 @@ import es.uvigo.mei.pedidos.entidades.LineaPedido;
 import es.uvigo.mei.pedidos.entidades.Pedido;
 import java.util.Calendar;
 import java.util.List;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.EntityTransaction;
-import jakarta.persistence.Persistence;
-import jakarta.persistence.TypedQuery;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+import javax.persistence.TypedQuery;
 
 public class Main {
 

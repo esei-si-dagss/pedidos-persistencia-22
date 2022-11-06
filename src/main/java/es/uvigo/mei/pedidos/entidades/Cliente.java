@@ -3,9 +3,9 @@ package es.uvigo.mei.pedidos.entidades;
 
 import java.io.Serializable;
 import java.util.Objects;
-import jakarta.persistence.Embedded;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 
 @Entity

@@ -2,7 +2,7 @@ package es.uvigo.mei.pedidos.entidades;
 
 import java.io.Serializable;
 import java.util.Objects;
-import jakarta.persistence.Embeddable;
+import javax.persistence.Embeddable;
 
 @Embeddable
 public class Direccion implements Serializable{
