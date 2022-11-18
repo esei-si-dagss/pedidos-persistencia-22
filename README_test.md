@@ -62,7 +62,7 @@ pushd
 ...
 ```
 
-**Importante:** La versión del plugin `maven-surefire-plugin` rsponsable de la fase `test` de MAVEN debe igual o superior a 2.22.0. 
+**Importante:** La versión del plugin `maven-surefire-plugin` rsponsable de la fase `test` de MAVEN debe igual o superior a 2.22.0 (ver https://maven.apache.org/surefire/maven-surefire-plugin/index.html)
 
 Añadir al final del `pom.xml`  (dentro de `<build><pluginManagement><plugins>`) la configuración para usar la última versión de este plugin.
 
